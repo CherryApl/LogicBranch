@@ -5,9 +5,6 @@ Repository for LogicBranch model files and execution scripts.
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.8+
-- PyTorch 1.10+
-- Other dependencies: `pip install -r requirements.txt`
 - Python              3.8
 - torch               1.9.0+cu111
 - torchaudio          0.9.0
