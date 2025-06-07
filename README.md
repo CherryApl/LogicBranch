@@ -16,11 +16,25 @@ Repository for LogicBranch model files and execution scripts.
 1. **Prepare the dataset**:
    ```bash
    # Extract the compressed data file
-   unzip ./data/data.rar -d ./data/
+   unzip ./data/data.rar -d ./data
+   ```
 
 2. **Run model evaluation**:
-```bash
-  cd Middle
-  # This will generate evaluation_results.csv with metrics
-  python eval.py
+   ```bash
+   cd Middle/models
+   # This will generate evaluation_results.csv with metrics
+   python eval.py
 
+## 📂 Repository Structure
+
+```
+LogicBranch/
+├── Big/                  # Large-scale test cases
+│   └── models/           # Pretrained model weights (.pt files)
+├── Middle/
+│   └── models/           # Pretrained model weights (.pt files)
+├── Mini/
+│   └── models/           # Pretrained model weights (.pt files)
+├── data/                 # Dataset directory (extract data.rar here)
+└── README.md             # This documentation
+```
