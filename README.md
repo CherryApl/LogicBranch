@@ -16,11 +16,11 @@ Repository for LogicBranch model files and execution scripts.
 1. **Prepare the dataset**:
    ```bash
    # Extract the compressed data file
-   unzip ./Middle/data/data.rar -d ./Middle/data/
+   unzip ./data/data.rar -d ./data/
 
 2. **Run model evaluation**:
 ```bash
-  cd Middle/models
+  cd Middle
   # This will generate evaluation_results.csv with metrics
   python eval.py
 
