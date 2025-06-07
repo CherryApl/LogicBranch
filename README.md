@@ -24,4 +24,16 @@ Repository for LogicBranch model files and execution scripts.
 2. **Run model evaluation**:
 ```bash
   cd Middle/models
+  # This will generate evaluation_results.csv with metrics
   python eval.py
+
+
+# Repository Structure
+
+LogicBranch/
+├── Big/                  # Large-scale test cases
+├── Middle/
+│   ├── data/             # Dataset directory (extract data.rar here)
+│   └── models/           # Pretrained model weights (.pt files)
+├── data/                 # Additional test data
+└── README.md             # This documentation
